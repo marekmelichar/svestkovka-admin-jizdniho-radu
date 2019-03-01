@@ -1,0 +1,1 @@
+# svestkovka-admin-jizdniho-radu
