@@ -1,0 +1,83 @@
+/* #sortable1, #sortable2, #sortable3 {
+				list-style-type: none;
+				margin: 0;
+				float: left;
+				margin-right: 10px;
+				background: #eee;
+				padding: 5px;
+				width: 143px;
+}
+
+#sortable1 li, #sortable2 li, #sortable3 li {
+				margin: 5px;
+				padding: 5px;
+				font-size: 1.2em;
+				width: 120px;
+} */
+
+
+
+
+#sortable_col_removed_items,
+#sortable_first_col {
+  background-color: #a1a1a1;
+  padding: 1rem;
+  width: 400px;
+  float: left;
+}
+
+#sortable_col_removed_items li,
+#sortable_first_col li {
+  border: 1px solid #3d3d3d;
+  background: #e7e7e7;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+#sortable_col_removed_items li button,
+#sortable_first_col li button {
+  float: right;
+}
+
+#sortable_first_col li.ui-state-highlight {
+    border: 1px solid #cfcfcf;
+    background: #cfcfcf;
+    color: #000;
+}
+
+#sortable_second_col {
+  width: 400px;
+  float: left;
+  margin: 30px 0 0 30px;
+}
+
+#save {
+  margin: 30px 0 0 0;
+  padding: 0.5rem 3rem;
+}
+
+
+
+
+
+
+
+#sortable_col_removed_items {
+  margin-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+#tabulka_jizdniho_radu table,
+#tabulka_jizdniho_radu th,
+#tabulka_jizdniho_radu td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
