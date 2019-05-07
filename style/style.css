@@ -73,11 +73,34 @@
 
 
 
-
+#tabulka_jizdniho_radu {
+  max-width: 700px;
+  width: 100%;
+}
 
 #tabulka_jizdniho_radu table,
 #tabulka_jizdniho_radu th,
 #tabulka_jizdniho_radu td {
   border: 1px solid black;
   border-collapse: collapse;
+}
+
+#tabulka_jizdniho_radu .tables {
+  display: flex;
+  justify-content: space-between;
+}
+
+#tabulka_jizdniho_radu .tables .heading {
+  position: relative;
+  top: 16px;
+}
+
+#smer_lovosice,
+#table_do_lovosic {
+  margin: 30px 0 0 0;
+}
+
+#smer_most,
+#table_do_mostu {
+  margin: 30px 0 0 0;
 }
